@@ -1,0 +1,109 @@
+body{
+    background-color: #F2EDEB;
+}
+h1{
+    color: #404040;
+    font-size: 30px;
+    line-height: 0;
+    font-family:"Minion W01 Cap Regular";
+    margin: 0;
+}
+h2{
+    color: #494949;
+}
+h3{
+    color: slategray;
+}
+h4{
+    color: dimgray;
+}
+p{
+    color: #404040;
+    font-family:"Minion W01 Cap Regular";
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.abas {
+    
+    position: relative;
+    }
+    .aba {
+    display: inline;
+    }
+    .aba > a {
+    float: left;
+    padding: 0.4em 1em;
+    width: 150px;
+    text-align: center;
+    font-family: "Minion W01 Cap Regular";
+    color: #404040;
+    }
+    .aba:not(:target) a {
+    border-bottom: none;
+    }
+    .aba:target a, a:hover {
+    background: #fff;
+    }
+    .conteudo {
+    position: absolute;
+    left: 0;
+    top: calc(2em + 4px);
+    z-index: -2;
+    width: 100vw;
+    height: 200vh;
+    background-color: #fff;
+    }
+    .aba:target .conteudo {
+    z-index: -1;
+    }
+
+.intro {
+    margin: 8px;
+    display: initial;
+    width: 90vw;
+    height: 90vh;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    background: url(https://i.pinimg.com/originals/2e/9e/8c/2e9e8cf09a8522d772d2c103b7c9693d.jpg) no-repeat bottom center scroll;
+    background-color:#fff;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+        
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 160px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+@font-face{
+    font-family:"Minion W01 Cap Regular";
+    src:url("https://fast.fonts.net/dv2/14/a87bb921-3486-4a72-ae9b-95da5497189c.woff2?d44f19a684109620e484147ea090e8187841bec9491a39d5f52c56125248e0330b19b529b6b6117bb7e6450eff0ad85f87c89ee556155e1f5693335554d2847158a1f0b1797c3a030864316874&projectId=27ac156d-add9-4efa-ba24-1cf10b5d4c26") format('woff2');}
