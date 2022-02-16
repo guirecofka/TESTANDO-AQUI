@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE09 - Multimídias</title>
+
+    <link rel="icon" href="midias/img/multimidia.png" type="image/x-icon">
+</head>
+<body>
+    <h1><font color="red">Inserção de Multimídias.</color></font></h1>
+    <h2><font color="blue">Tag <b>iframe</b></color></font></h2>
+    <p>A tag supracitada é utilizada para inserção de conteúdos de diversos tipos de mídias. Assim sendo, esta ferramenta pressupõe um conteúdo a inserir no site vindo de um outro site. Para adicionar um arquivo do seu aparelho será necessário outras especificações que será visto em breve.</p>
+
+    <h2><font color="green">Site embutido/incorporado ao/este site</color></font></h2>
+    <iframe src="https://irati.ifpr.edu.br" height="640" width="640"></iframe>
+
+    <h2><font color="green">Áudio embutido/incorporado ao/este site:</color></font></h2>
+    <iframe width="640" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/232937008&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/3lau" title="3LAU" target="_blank" style="color: #cccccc; text-decoration: none;">3LAU</a> · <a href="https://soundcloud.com/3lau/stitches-3lau-remix" title="Stitches (3LAU Remix) - Shawn Mendes" target="_blank" style="color: #cccccc; text-decoration: none;">Stitches - Shawn Mendes</a></div>
+
+    <h2><font color="green">Vídeo embutido/incorporado ao/este site:</color></font></h2>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/P8nq1KzxLSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2><font color="blue">Tag de Vídeo (Computador)</color></font></h2>
+    <p>Como citado no início desta página, a tag de arquivos vindo de seus computadores é necessário outras especificações. Portanto, a tag possui a mesma funcionalidade que o explicado anteriormente, entretanto, para vídeo com uma imagem pré-definida antes. </p>
+    <video width="640" height="360" poster="midias/video/Bike.jpg" controls>
+        <source src="midias/video/Bike.mp4">
+        <source src="midias/video/Bike.webm">
+        <source src="midias/video/Bike.ogv">
+    </video>
+
+    <h2><font color="blue">Tag de Áudio (Computador)</color></font></h2>
+    <p>Essa tag é para inserção de áudios que você tem ja baixado em seu aparelho programador e tem a mesa função que a tag explicada no início. A Biblioteca de áudio do YouTube fornece áudios gratuitos e livres de licenças comerciais para se utilizar com fins educativos.</p>
+    <audio preload="metadata" controls>
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+    </audio>
+
+    <h2><font color="blue">Tag Picture</color></font></h2>
+    <p>Essa tag pressupõe uma e mais imagens do aparelho programador ou incorporada(s). Dessa forma, ela vai aumentando ou diminuindo o tamanho de acordo com a quantidade de pixels necessários.</p>
+    <picture>
+        <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="midias/img/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="Mtb Por-do-sol">
+    </picture>
+</body>
+</html>
