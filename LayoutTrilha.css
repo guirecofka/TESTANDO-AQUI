@@ -62,8 +62,11 @@ a {
 .aba.i{
     height: 305px;
 }
-.aba.iv{
+.aba.vi{
     width: 94.7%;
+}
+.aba.iv{
+    float:right;
 }
 .rodape{
     font-size: 10px;

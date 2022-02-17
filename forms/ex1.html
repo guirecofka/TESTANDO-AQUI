@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="Layout.css">
+    <script type="text/javascript" src="js/ex1.js"></script>
+</head>
+<body>
+    <h1>HELLO, WORLD.</h1>
+    <form name="Formulário" onsubmit="return Enviar()" method="post">
+
+        <label for="nome">Nome completo</label><br>
+        <input type="text" id="nome" placeholder="Ex: Guilherme Recofka"><br>
+
+
+        <br><label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="email@email.com"><br>
+    
+        <br><label for="dn">Data de Nascimento</label><br>
+        <input type="date" id="dn"><br>
+
+        <br><label for="cm">Comentário</label><br>
+        <textarea id="cm" placeholder="+50 caracteres"></textarea><br>
+
+        <br><input type="submit" class="enviar" value="Enviar" onclick="Enviar()">
+    </form>
+</body>
+<footer>
+    <h2>© Este site é utilizado em meio avaliativo para as aulas do Prof°: Francis Luiz Baranoski.</h2>
+    <h2>Instituto Federal do Paraná - Campus Irati</h2>
+</footer>
+</html>
