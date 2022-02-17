@@ -62,16 +62,21 @@ a {
 .aba.i{
     height: 305px;
 }
-.aba.vi{
+.aba.vii{
     width: 94.7%;
+}
+.aba.vi{
+    height: 265px;
 }
 .aba.iv{
     float:right;
 }
 .rodape{
     font-size: 10px;
+    float: auto;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
 @media screen and (max-widht:800px){
     .principal, .conteudo{
